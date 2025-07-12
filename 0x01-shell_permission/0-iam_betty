@@ -1,5 +1,4 @@
 #!/bin/bash
 # This script switches the current user to 'betty'.
 # It uses exactly 8 characters for the command as per the requirement.
-
 su betty
