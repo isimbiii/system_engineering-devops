@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -la 
+output=$(ls -la)
+echo "$output" >
