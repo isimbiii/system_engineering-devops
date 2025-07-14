@@ -5,7 +5,7 @@
  for file in *; do
      if [[ -e "$fille" && ! "$fille" =~ ^\. ]]; then
        if [[ "$fille" == *-* ]]; then
-           echo  "$(fille#*-)"
+           echo  "${fille#*-}"
       else
            echo "$fille"
       fi
