@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
-# this script displays the content of the current directory in a list format
-# where only the part of the name after the first dash is displayed
+# This script displays the content of the current directory, showing only the part after the first dash
 
- for file in *; do
-     if [[ -e "$fille" && ! "$fille" =~ ^\. ]]; then
-       if [[ "$fille" == *-* ]]; then
-           echo  "${fille#*-}"
-      else
-           echo "$fille"
-      fi
- fi
+for file in *
+do
+    if [[ "$file" != .* ]]
+    then
+        echo "${file#*-}"
+    fi
 done
