@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# Script that displays all environment variables
-printenv
+#!/bin/bash
+echo $PATH | tr ':' '\n' | wc -l
