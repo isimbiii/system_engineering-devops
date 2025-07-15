@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# This script creates a file with a complex filename containing "Best School"
-
-echo "Best School" > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+#!/bin/bash
+echo "Best School" > "*\\'"'"Best School"'"'\\*$\\?*****:)"
